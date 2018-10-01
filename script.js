@@ -36,7 +36,7 @@ function randString() {
       pass += setChars.charAt(Math.floor(Math.random() * setChars.length));
     };
     //Append items:
-    $("table").append("<tr><td>" + parseInt(i+1) + "</td><td>" + pass + "</td><td contenteditable=''>Edit me!</td></tr>");
+    $("table").append("<tr><td>" + parseInt(i+1) + "</td><td>" + pass + "</td><td contenteditable=''>Nom du site</td></tr>");
     //Reset 'pass' string:
     pass = "";
   };
